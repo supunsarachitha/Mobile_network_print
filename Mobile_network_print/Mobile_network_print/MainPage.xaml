@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mobile_network_print.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Entry Keyboard="Numeric" x:Name="txtHostIp" Text="192.168.8.101" Placeholder="IP address" ></Entry>
+        <Entry Keyboard="Numeric" x:Name="txtport" Text="1100" Placeholder="port"></Entry>
+        <Button x:Name="btnPrint" Clicked="btnPrint_Clicked" Text="print me" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+    </StackLayout>
+
+</ContentPage>
