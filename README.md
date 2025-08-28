@@ -1,7 +1,7 @@
 
 # 🖨️ Mobile Network Print
 
-A simple demo application built with **C#** to send and print strings over a local network. This project is ideal for learning how to implement basic network communication between devices and simulate remote printing functionality.
+A simple demo application built with **Xamarin** to send and print strings over a local network. This project is ideal for learning how to implement basic network communication between devices and simulate remote printing functionality.
 
 ---
 
